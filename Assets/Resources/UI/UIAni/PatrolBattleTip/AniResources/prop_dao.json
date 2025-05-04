@@ -1,0 +1,96 @@
+{
+"skeleton": { "hash": "xGbUZ0QZzxzTS2yU6abdU11U5Bk", "spine": "2.1.27", "width": 122.31, "height": 134.64, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "ui_dao", "parent": "root", "length": 79.8, "x": -40.43, "y": 25.71, "rotation": 88.18 },
+	{ "name": "ui_dao2", "parent": "root", "length": 79.8, "x": 43.02, "y": 26.56, "scaleY": -1, "rotation": 88.18 }
+],
+"slots": [
+	{ "name": "ui_dao", "bone": "ui_dao", "attachment": "ui_dao" },
+	{ "name": "ui_dao2", "bone": "ui_dao2", "attachment": "ui_dao" }
+],
+"skins": {
+	"default": {
+		"ui_dao": {
+			"ui_dao": { "x": 32.37, "y": -5.63, "rotation": -88.18, "width": 46, "height": 132 }
+		},
+		"ui_dao2": {
+			"ui_dao": { "x": 32.37, "y": -5.63, "rotation": -88.18, "width": 46, "height": 132 }
+		}
+	}
+},
+"animations": {
+	"animation1": {
+		"bones": {
+			"ui_dao": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -9.63 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"ui_dao2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -9.63 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"animation2": {
+		"bones": {
+			"ui_dao": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -64.83 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -9.63 },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.9, "y": 1.1 },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"ui_dao2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 68.36 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -9.63 },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.9, "y": 1.1 },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}
